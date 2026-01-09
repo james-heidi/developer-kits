@@ -8,5 +8,6 @@
   "repository": "https://github.com/james-heidi/developer-kits",
   "homepage": "https://github.com/james-heidi/developer-kits/tree/main/plugins/mem0",
   "keywords": ["memory", "context", "mem0", "persistence", "rag"],
-  "license": "MIT"
+  "license": "MIT",
+  "skills": "./skills/"
 }
