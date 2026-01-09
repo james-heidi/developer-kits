@@ -1,0 +1,11 @@
+{
+  "name": "mem0",
+  "version": "0.3.1",
+  "description": "Persistent memory for Claude Code using mem0.ai - remembers context across conversations",
+  "author": {
+    "name": "Xiang"
+  },
+  "repository": "https://github.com/xiang/claude-code-marketplace",
+  "keywords": ["memory", "context", "mem0", "persistence", "rag"],
+  "license": "MIT"
+}

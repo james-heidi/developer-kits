@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code local settings
+.claude/*.local.md
+.claude/*.local.json

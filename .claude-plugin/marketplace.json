@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "developer-kits",
+  "description": "A collection of plugins for Claude Code",
+  "owner": {
+    "name": "James Tan",
+    "email": "xiang@heidihealth.com"
+  },
+  "plugins": [
+    {
+      "name": "mem0",
+      "description": "Persistent memory for Claude Code using mem0.ai - remembers context across conversations with automatic memory retrieval and storage",
+      "version": "0.3.1",
+      "author": {
+        "name": "James Tan"
+      },
+      "source": "./plugins/mem0",
+      "category": "productivity",
+      "homepage": "https://github.com/xiang/developer-kits/tree/main/plugins/mem0"
+    }
+  ]
+}
