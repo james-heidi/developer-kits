@@ -4,8 +4,8 @@ A collection of plugins for Claude Code.
 
 ## Available Plugins
 
-| Plugin | Description | Category |
-|--------|-------------|----------|
+| Plugin                 | Description                     | Category     |
+| ---------------------- | ------------------------------- | ------------ |
 | [mem0](./plugins/mem0) | Persistent memory using mem0.ai | Productivity |
 
 ## Installation

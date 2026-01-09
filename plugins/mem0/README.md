@@ -32,14 +32,14 @@ Then reload: `source ~/.zshrc`
 
 ## Environment Variables
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `MEM0_API_KEY` | Your mem0 API key **(required)** | - |
-| `MEM0_USER_ID` | User identifier for memory scoping | `claude-code-user` |
-| `MEM0_TOP_K` | Number of memories to retrieve | `5` |
-| `MEM0_THRESHOLD` | Minimum similarity score (0-1) | `0.3` |
-| `MEM0_SAVE_MESSAGES` | Messages to save per session | `10` |
-| `MEM0_AUTO_SAVE` | Auto-save each prompt to memory | `true` |
+| Variable             | Description                        | Default            |
+| -------------------- | ---------------------------------- | ------------------ |
+| `MEM0_API_KEY`       | Your mem0 API key **(required)**   | -                  |
+| `MEM0_USER_ID`       | User identifier for memory scoping | `claude-code-user` |
+| `MEM0_TOP_K`         | Number of memories to retrieve     | `5`                |
+| `MEM0_THRESHOLD`     | Minimum similarity score (0-1)     | `0.3`              |
+| `MEM0_SAVE_MESSAGES` | Messages to save per session       | `10`               |
+| `MEM0_AUTO_SAVE`     | Auto-save each prompt to memory    | `true`             |
 
 ## How It Works
 
@@ -59,11 +59,11 @@ When a session ends:
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `/mem0:save` | Manually save memories from current conversation |
-| `/mem0:configure` | Configuration wizard for mem0 setup |
-| `/mem0:status` | Check configuration and test connection |
+| Command           | Description                                      |
+| ----------------- | ------------------------------------------------ |
+| `/mem0:save`      | Manually save memories from current conversation |
+| `/mem0:configure` | Configuration wizard for mem0 setup              |
+| `/mem0:status`    | Check configuration and test connection          |
 
 ## Troubleshooting
 
