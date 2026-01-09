@@ -13,7 +13,7 @@ A collection of plugins for Claude Code.
 ### 1. Add this marketplace
 
 ```
-/plugin marketplace add https://github.com/xiang/developer-kits.git
+/plugin marketplace add https://github.com/james-heidi/developer-kits.git
 ```
 
 ### 2. Install a plugin

@@ -9,14 +9,14 @@
   "plugins": [
     {
       "name": "mem0",
-      "description": "Persistent memory for Claude Code using mem0.ai - remembers context across conversations with automatic memory retrieval and storage",
-      "version": "0.3.1",
+      "description": "Persistent memory for Claude Code using mem0.ai - remembers context across conversations",
+      "version": "0.1.0",
       "author": {
         "name": "James Tan"
       },
       "source": "./plugins/mem0",
       "category": "productivity",
-      "homepage": "https://github.com/xiang/developer-kits/tree/main/plugins/mem0"
+      "homepage": "https://github.com/james-heidi/developer-kits/tree/main/plugins/mem0"
     }
   ]
 }
