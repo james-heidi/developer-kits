@@ -4,9 +4,7 @@ A collection of plugins for Claude Code.
 
 ## Available Plugins
 
-| Plugin                 | Description                     | Category     |
-| ---------------------- | ------------------------------- | ------------ |
-| [mem0](./plugins/mem0) | Persistent memory using mem0.ai | Productivity |
+*No plugins currently available.*
 
 ## Installation
 
@@ -19,7 +17,7 @@ A collection of plugins for Claude Code.
 ### 2. Install a plugin
 
 ```
-/plugin install mem0@developer-kits
+/plugin install <plugin-name>@developer-kits
 ```
 
 ## License
