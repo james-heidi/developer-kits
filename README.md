@@ -4,7 +4,10 @@ A collection of plugins for Claude Code.
 
 ## Available Plugins
 
-*No plugins currently available.*
+| Plugin                                   | Description                                                                                                                     | Category     |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| [claude-md-sync](./plugins/claude-md-sync) | Automatically keeps CLAUDE.md synchronized with project state. Detects project type, analyzes current state, and proposes documentation updates. | Productivity |
+| [claude-mem0](./plugins/claude-mem0)       | Persistent memory for Claude Code using mem0 cloud API. Automatically captures and retrieves global user-level and project-level memories.       | Productivity |
 
 ## Installation
 
@@ -17,7 +20,8 @@ A collection of plugins for Claude Code.
 ### 2. Install a plugin
 
 ```
-/plugin install <plugin-name>@developer-kits
+/plugin install claude-md-sync@developer-kits
+/plugin install claude-mem0@developer-kits
 ```
 
 ## License

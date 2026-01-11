@@ -6,5 +6,28 @@
     "name": "James Tan",
     "email": "xiang@heidihealth.com"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "claude-md-sync",
+      "description": "Automatically keeps CLAUDE.md synchronized with project state. Detects project type, analyzes current state, and proposes documentation updates.",
+      "version": "1.0.0",
+      "author": {
+        "name": "GeekMini"
+      },
+      "source": "./plugins/claude-md-sync",
+      "category": "productivity",
+      "homepage": "https://github.com/geekmini/claude-plugins/tree/main/claude-md-sync"
+    },
+    {
+      "name": "claude-mem0",
+      "description": "Persistent memory for Claude Code using mem0 cloud API. Automatically captures and retrieves global user-level and project-level memories.",
+      "version": "1.6.1",
+      "author": {
+        "name": "GeekMini"
+      },
+      "source": "./plugins/claude-mem0",
+      "category": "productivity",
+      "homepage": "https://github.com/geekmini/claude-plugins/tree/main/claude-mem0"
+    }
+  ]
 }
