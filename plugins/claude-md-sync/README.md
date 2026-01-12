@@ -46,19 +46,6 @@ Forces a full analysis and update proposal.
 
 ## Installation
 
-From the GeekMini Claude Plugins marketplace:
-
 ```bash
-# Clone the repository
-git clone https://github.com/geekmini/claude-plugins.git
-
-# Install the plugin
-claude mcp add-json claude-md-sync '{"type":"prompt","path":"path/to/claude-plugins/claude-md-sync/.claude-plugin"}'
-```
-
-Or add to your Claude Code settings:
-```json
-{
-  "plugins": ["path/to/claude-plugins/claude-md-sync"]
-}
+/plugin install claude-md-sync
 ```
